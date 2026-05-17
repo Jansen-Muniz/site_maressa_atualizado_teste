@@ -92,7 +92,7 @@ nav li a:hover {
 
   background: linear-gradient(rgba(47, 47, 47, 0.55),
       rgba(0, 0, 0, 0.55)),
-    url('/assets/img/imagem-princ.jpg');
+    url('../img/imagem-princ.jpg');
 
   background-size: cover;
   background-position: center;
@@ -283,23 +283,23 @@ nav li a:hover {
 }
 
 .container1 .consultoria {
-  background: url('/assets/img/img1.png');
+  background: url('../img/imagem-1.png');
 }
 
 .container1 .planejamento-previdenciario {
-  background: url('/assets/img/img2.png');
+  background: url('../img/img2.png');
 }
 
 .container2 .revisao-beneficios {
-  background: url('/assets/img/img3.png');
+  background: url('../img/img3.png');
 }
 
 .container2 .revisao-vida-toda {
-  background: url('/assets/img/img4.png');
+  background: url('../img/img4.png');
 }
 
 .container3 .mandado-de-seguranca {
-  background: url('/assets/img/img5.png');
+  background: url('../img/img5.png');
 }
 
 .imagem-beneficios, .imagem-aposentadoria {
