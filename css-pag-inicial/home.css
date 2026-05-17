@@ -1,0 +1,138 @@
+:root {
+  --cor-principal: #642020;
+  --cor-principal-escura: #4a1616;
+  --cor-principal-media: #7a2a2a;
+  --cor-principal-clara: #a14a4a;
+
+  --cor-destaque: #c5a47e;
+  --cor-destaque-hover: #a88963;
+
+  --cor-fundo: #1a1a1a;
+  --cor-fundo-secundario: #2a2a2a;
+
+  --cor-branco: #ffffff;
+  --cor-cinza-claro: #dddddd;
+
+  --cor-texto-principal: #ffffff;
+  --cor-texto-secundario: #cccccc;
+  --cor-texto-escuro: #1a1a1a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  color: #fff;
+}
+
+.hero {
+  height: 100vh;
+  background-color: var(--cor-principal);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  max-width: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+
+  animation: fadeUp 1s ease forwards;
+}
+
+.logo {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.6rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+p {
+  font-size: 1.1rem;
+  color: var(--cor-cinza-claro);
+  line-height: 1.6;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background: var(--cor-destaque);
+  color: var(--cor-texto-escuro);
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  background: var(--cor-destaque-hover);
+  transform: translateY(-2px);
+}
+
+.info {
+  list-style: none;
+  margin-top: 25px;
+  padding: 0;
+  text-align: center;
+}
+
+.info li {
+  margin-bottom: 10px;
+  color: var(--cor-cinza-claro);
+  font-size: 0.95rem;
+}
+
+.info i {
+  color: var(--cor-destaque);
+  margin-right: 8px;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .info {
+    font-size: 0.9rem;
+  }
+}

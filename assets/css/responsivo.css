@@ -1,0 +1,485 @@
+@media(max-width: 1190px) {
+  .menu {
+    flex-direction: column;
+  }
+
+  .nav-item {
+    display: none;
+  }
+
+  .nav-item-menu-responsivo {
+    list-style-type: none;
+  }
+
+  .icone-menu {
+    display: block;
+    text-align: center;
+  }
+
+  .icone {
+    width: 1.5rem;
+  }
+
+  .icone-menu button {
+    background-color: rgb(100, 100, 100);
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    height: 1.5rem;
+    margin: 1rem;
+  }
+
+  .menu-responsivo ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .mobile-menu .nav-item {
+    display: block;
+  }
+
+  .nav-link {
+    font-size: 1.1rem;
+  }
+
+  .abrir {
+    display: block;
+  }
+
+  .div-h2{
+    margin: 0 4rem;
+  }
+
+  .container-servicos-o-que-faremos{
+    margin: 0 10rem;
+  }
+
+  .container-aposentadoria,
+  .container-beneficios {
+    width: 19rem;
+    height: 28rem;
+  }
+
+  .container-imagem {
+    width: 17rem;
+    height: 15rem;
+  }
+
+  .mandado-de-seguranca {
+    width: 38.5rem;
+  }
+
+  .titulo-imagem {
+    font-size: 1.3rem;
+  }
+
+  .texto-imagem {
+    font-size: 1rem;
+  }
+
+  .texto-revisao-vida-toda {
+    font-size: .8rem;
+  }
+
+  .texto-revisao-beneficios {
+    margin-bottom: 2.5rem;
+  }
+
+  .botao-wa {
+    width: 16rem;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+@media(max-width: 1040px) {
+  .conteudo-principal {
+    background-image: url('/assets/img/imagem-princ-reduzida.jpg');
+  }
+
+  .container-texto-principal {
+    padding: 1rem;
+    height: 30rem;
+  }
+
+  .link-telefone,
+  .link-email {
+    font-size: 13px;
+  }
+
+  .div-logo {
+    text-align: center;
+  }
+
+  .logo {
+    width: 6rem;
+  }
+
+  .titulo {
+    margin-top: 5rem;
+    font-size: 4rem;
+  }
+
+  .div-h2 {
+    margin: 0 2rem;
+  }
+
+  .container-servicos-o-que-faremos{
+    margin: 0 2rem;
+  }
+
+  .titulo-servicos,
+  .titulo-aposentadoria,
+  .titulo-beneficios {
+    font-size: 1.6rem;
+  }
+
+  .o-que-faremos-texto {
+    font-size: 1.5rem;
+  }
+
+  .fa-arrow-down {
+    font-size: 2rem;
+  }
+
+  .texto-h2{
+    font-size: 2rem;
+  }
+
+  .texto-h3,
+  .fa-check {
+    font-size: 1rem;
+  }
+
+  .container-aposentadoria,
+  .container-beneficios {
+    width: 19rem;
+    height: 28rem;
+  }
+
+  .imagem-aposentadoria,
+  .imagem-beneficios {
+    width: 4rem;
+  }
+
+  .texto-item-aposentadoria,
+  .texto-item-beneficios {
+    font-size: 1rem;
+  }
+
+  .container1,
+  .container2 {
+    align-items: center;
+  }
+
+  .container-imagem {
+    height: 12rem;
+  }
+
+  .mandado-de-seguranca {
+    height: 15rem;
+  }
+
+  .titulo-imagem {
+    font-size: 1.3rem;
+  }
+
+  .texto-imagem {
+    font-size: 1rem;
+  }
+
+  .texto-revisao-vida-toda {
+    font-size: .6rem;
+  }
+
+  .botao-wa {
+    padding: .5rem;
+  }
+
+  .endereco,
+  .fa-whatsapp,
+  .fa-envelope {
+    font-size: .8rem;
+  }
+
+  .container-rodape {
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .div-direitos-reservados {
+    bottom: -2rem;
+  }
+
+  .texto-direitos-reservados {
+    font-size: .8rem;
+  }
+
+  .fa-arrow-circle-up {
+    font-size: 3rem;
+  }
+
+  .desenvolvido-por {
+    font-size: .8rem;
+  }
+}
+
+@media(max-width: 740px) {
+  .titulo {
+    font-size: 3rem;
+  }
+
+  .texto-h2 {
+    font-size: 2rem;
+  }
+
+  .texto-h3 {
+    font-size: 1.5rem;
+  }
+
+  .titulo,
+  .texto-h2,
+  .texto-h3 {
+    margin-top: 1rem;
+  }
+
+  .link-telefone,
+  .link-email {
+    font-size: .7rem;
+  }
+
+  .logo {
+    width: 6rem;
+  }
+
+  .container-servicos-o-que-faremos{
+    margin: 0;
+  }
+
+  .container1,
+  .container2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mandado-de-seguranca {
+    width: 17rem;
+    height: auto;
+  }
+
+  .aposentadoria-beneficios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-aposentadoria,
+  .container-beneficios {
+    height: auto;
+  }
+
+  .texto-revisao-vida-toda {
+    font-size: .7rem;
+  }
+
+  .icone-botao-wa,
+  .texto-whatsapp,
+  .texto-direitos-reservados,
+  .desenvolvido-por {
+    font-size: .7rem;
+  }
+
+  .titulo-contato{
+    font-size: 2rem;
+  }
+
+  .container-rodape {
+    width: auto;
+  }
+
+  .container-endereco-rodape,
+  .whatsapp-rodape,
+  .email-rodape{
+    font-size: 1rem;
+  }
+
+  .div-direitos-reservados {
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+    bottom: -4rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .container-imagem {
+    width: 15rem;
+    height: auto;
+  }
+
+  .div-direitos-reservados {
+    text-align: center;
+  }
+
+  .texto-direitos-reservados,
+  .desenvolvido-por {
+    font-size: .6rem;
+  }
+
+  .titulo {
+    font-size: 3rem;
+  }
+
+  .texto-h2 {
+    font-size: 1.6rem;
+  }
+
+  .texto-h3 {
+    font-size: 1.2rem;
+  }
+
+  .botao-ir-para-o-topo {
+    right: 0;
+  }
+
+  .container-endereco-rodape, .whatsapp-rodape, .email-rodape {
+    font-size: .8rem;
+  }
+}
+
+@media(max-width: 445px) {
+  .container-aposentadoria,
+  .container-beneficios {
+    width: 17rem;
+  }
+
+  .container-imagem {
+    width: 17rem;
+    height: 10rem;
+  }
+
+  .icone-botao-wa,
+  .texto-whatsapp {
+    font-size: .7rem;
+  }
+
+  .titulo-imagem {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .texto-imagem {
+    font-size: 1rem;
+    margin-top: .5rem;
+  }
+
+  .texto-revisao-vida-toda{
+    font-size: .7rem;
+  }
+}
+
+@media(max-width: 400px) {
+  .titulo {
+    font-size: 2.5rem;
+  }
+
+  .texto-h2 {
+    font-size: 1.5rem;
+  }
+
+  .texto-h3 {
+    font-size: 1.2rem;
+  }
+
+  .div-h2 {
+    margin: 0 1rem;
+  }
+
+  .titulo-servicos,
+  .titulo-aposentadoria,
+  .titulo-beneficios,
+  .o-que-faremos-texto {
+    font-size: 1.3rem;
+  }
+
+  .texto-item-aposentadoria,
+  .texto-item-beneficios {
+    font-size: .8rem;
+  }
+
+  .subtexto-servicos {
+    font-size: .6rem;
+  }
+
+  .container-imagem {
+    width: 15rem;
+  }
+
+  .logo-rodape{
+    width: 13rem;
+  }
+
+  .div-direitos-reservados {
+    bottom: -6rem;
+  }
+}
+
+@media(max-width: 360px){
+  .container-texto-principal {
+    height: 18rem;
+  }
+
+  .titulo {
+    font-size: 1.5rem;
+  }
+
+  .texto-h2 {
+    font-size: 1rem;
+  }
+
+  .texto-h3 {
+    font-size: .8rem;
+  }
+
+  .container-imagem{
+    height: 12rem;
+  }
+
+  .titulo-imagem{
+    margin-top: .8rem;
+  }
+
+  .botao-wa {
+    width: 13rem;
+  }
+
+  .texto-whatsapp{
+    font-size: .5rem;
+  }
+}
+
+@media(max-width:320px){
+  .container-texto-principal {
+    height: 16rem;
+  }
+
+  .titulo {
+    font-size: 1.2rem;
+  }
+
+  .texto-h2 {
+    font-size: .8rem;
+  }
+
+  .texto-h3 {
+    font-size: .6rem;
+  }
+
+  .container-imagem {
+    width: 13rem;
+  }
+}
